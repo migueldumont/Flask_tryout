@@ -3,7 +3,7 @@ app=Flask(__name__)
 
 @app.route('/')
 def home():
-    return "<Dit is huiswerk 11 flask> Hello world!<hopelijk krijg ik de tekst goed te zien>"
+    return "<p> Hello, dit is huiswerk 11 over flask </p>"
 
 if __name__ =='__main__':
     app.run(port=5000,debug=True)
